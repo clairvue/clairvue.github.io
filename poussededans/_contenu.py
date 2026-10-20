@@ -13,18 +13,18 @@ retard sur les autres sans que personne ne le voie.
 
 APP = "PousseDedans"
 CONTACT = "clairevue.messagerie@gmail.com"
-EDITEUR = "Clairevue"
+EDITEUR = "Clairvue"
 MAJ = "27 septembre 2026"
 
 LANGUES = ["fr", "en", "de", "es", "it"]
 
 # Libellés de navigation communs aux deux documents.
 NAV = {
-    "fr": {"maj": "Dernière mise à jour", "retour": "Accueil Clairevue", "autre": "Conditions d'utilisation"},
-    "en": {"maj": "Last updated", "retour": "Clairevue home", "autre": "Terms of use"},
-    "de": {"maj": "Zuletzt aktualisiert", "retour": "Clairevue-Startseite", "autre": "Nutzungsbedingungen"},
-    "es": {"maj": "Última actualización", "retour": "Inicio Clairevue", "autre": "Condiciones de uso"},
-    "it": {"maj": "Ultimo aggiornamento", "retour": "Home Clairevue", "autre": "Termini di utilizzo"},
+    "fr": {"maj": "Dernière mise à jour", "retour": "Accueil Clairvue", "autre": "Conditions d'utilisation"},
+    "en": {"maj": "Last updated", "retour": "Clairvue home", "autre": "Terms of use"},
+    "de": {"maj": "Zuletzt aktualisiert", "retour": "Clairvue-Startseite", "autre": "Nutzungsbedingungen"},
+    "es": {"maj": "Última actualización", "retour": "Inicio Clairvue", "autre": "Condiciones de uso"},
+    "it": {"maj": "Ultimo aggiornamento", "retour": "Home Clairvue", "autre": "Termini di utilizzo"},
 }
 NAV_AUTRE_CONF = {
     "fr": "Politique de confidentialité",
@@ -39,7 +39,7 @@ CONFIDENTIALITE = {
 "titre": "Politique de confidentialité",
 "intro": f"{APP} (« l'application ») est une application de gestion des soins de plantes d'intérieur, éditée par {EDITEUR}. Cette page décrit quelles données sont traitées lorsque vous utilisez l'application.",
 "sections": [
-("Aucune collecte de données personnelles par Clairevue",
+("Aucune collecte de données personnelles par Clairvue",
  f"<p>{APP} fonctionne entièrement <strong>hors ligne</strong>. Toutes les données que vous saisissez — maisons, espaces, plantes, historique de soins, notes, photos — sont stockées uniquement sur votre appareil, dans une base de données locale. Elles ne sont jamais envoyées à un serveur, ni à {EDITEUR}, ni à un tiers.</p><p>Il n'existe aucun compte utilisateur, aucune inscription, aucune authentification.</p>"),
 ("Export et sauvegarde",
  f"<p>L'application permet d'exporter vos données (maisons, plantes, photos, réglages) dans un fichier que vous choisissez d'enregistrer ou de partager vous-même. {EDITEUR} n'a accès à aucun de ces fichiers ; leur diffusion dépend entièrement de vos propres choix une fois le fichier créé.</p>"),
@@ -65,7 +65,7 @@ CONFIDENTIALITE = {
 "titre": "Privacy policy",
 "intro": f"{APP} (\"the app\") is a houseplant care app published by {EDITEUR}. This page describes what data is processed when you use the app.",
 "sections": [
-("No personal data collected by Clairevue",
+("No personal data collected by Clairvue",
  f"<p>{APP} runs entirely <strong>offline</strong>. Everything you enter — homes, rooms, plants, care history, notes, photos — is stored only on your device, in a local database. It is never sent to a server, to {EDITEUR}, or to any third party.</p><p>There is no user account, no sign-up, no authentication.</p>"),
 ("Export and backup",
  f"<p>The app lets you export your data (homes, plants, photos, settings) to a file that you choose to save or share yourself. {EDITEUR} has no access to those files; what happens to them depends entirely on your own choices once the file is created.</p>"),
@@ -91,7 +91,7 @@ CONFIDENTIALITE = {
 "titre": "Datenschutzerklärung",
 "intro": f"{APP} („die App“) ist eine App zur Pflege von Zimmerpflanzen, herausgegeben von {EDITEUR}. Diese Seite beschreibt, welche Daten bei der Nutzung der App verarbeitet werden.",
 "sections": [
-("Keine Erhebung personenbezogener Daten durch Clairevue",
+("Keine Erhebung personenbezogener Daten durch Clairvue",
  f"<p>{APP} funktioniert vollständig <strong>offline</strong>. Alle von dir eingegebenen Daten — Zuhause, Räume, Pflanzen, Pflegeverlauf, Notizen, Fotos — werden ausschließlich auf deinem Gerät in einer lokalen Datenbank gespeichert. Sie werden niemals an einen Server, an {EDITEUR} oder an Dritte gesendet.</p><p>Es gibt kein Benutzerkonto, keine Registrierung, keine Anmeldung.</p>"),
 ("Export und Sicherung",
  f"<p>Die App ermöglicht den Export deiner Daten (Zuhause, Pflanzen, Fotos, Einstellungen) in eine Datei, die du selbst speicherst oder teilst. {EDITEUR} hat keinen Zugriff auf diese Dateien; ihre Verbreitung hängt allein von deinen Entscheidungen ab.</p>"),
@@ -117,7 +117,7 @@ CONFIDENTIALITE = {
 "titre": "Política de privacidad",
 "intro": f"{APP} («la aplicación») es una aplicación de cuidado de plantas de interior, editada por {EDITEUR}. Esta página describe qué datos se tratan cuando usas la aplicación.",
 "sections": [
-("Ningún dato personal recogido por Clairevue",
+("Ningún dato personal recogido por Clairvue",
  f"<p>{APP} funciona completamente <strong>sin conexión</strong>. Todos los datos que introduces — casas, estancias, plantas, historial de cuidados, notas, fotos — se guardan únicamente en tu dispositivo, en una base de datos local. Nunca se envían a un servidor, ni a {EDITEUR}, ni a terceros.</p><p>No existe cuenta de usuario, ni registro, ni autenticación.</p>"),
 ("Exportación y copia de seguridad",
  f"<p>La aplicación permite exportar tus datos (casas, plantas, fotos, ajustes) a un archivo que tú decides guardar o compartir. {EDITEUR} no tiene acceso a esos archivos; su difusión depende enteramente de tus propias decisiones.</p>"),
@@ -143,7 +143,7 @@ CONFIDENTIALITE = {
 "titre": "Informativa sulla privacy",
 "intro": f"{APP} (“l'applicazione”) è un'app per la cura delle piante da interno, pubblicata da {EDITEUR}. Questa pagina descrive quali dati vengono trattati quando usi l'applicazione.",
 "sections": [
-("Nessun dato personale raccolto da Clairevue",
+("Nessun dato personale raccolto da Clairvue",
  f"<p>{APP} funziona interamente <strong>offline</strong>. Tutti i dati che inserisci — case, stanze, piante, cronologia delle cure, note, foto — sono memorizzati solo sul tuo dispositivo, in un database locale. Non vengono mai inviati a un server, né a {EDITEUR}, né a terzi.</p><p>Non esiste alcun account utente, né registrazione, né autenticazione.</p>"),
 ("Esportazione e backup",
  f"<p>L'applicazione consente di esportare i tuoi dati (case, piante, foto, impostazioni) in un file che scegli tu stesso di salvare o condividere. {EDITEUR} non ha accesso a questi file; la loro diffusione dipende interamente dalle tue scelte.</p>"),
@@ -178,7 +178,7 @@ CONDITIONS = {
 ("!Toxicité pour les animaux",
  "Les indications de toxicité sont fournies <strong>à titre purement informatif</strong> et ne constituent en aucun cas un avis vétérinaire. En cas d'ingestion réelle ou suspectée, contactez immédiatement un vétérinaire ou un centre antipoison animalier — ne vous fiez jamais uniquement à l'application en situation d'urgence."),
 ("Données du catalogue fournies avec l'application",
- "<p>Le catalogue de plantes livré avec l'application est constitué à partir de données publiques générales, <strong>assemblées et traduites à l'aide d'une intelligence artificielle</strong>, sans relecture systématique par un spécialiste. Ces informations — noms, besoins en lumière et en humidité, fréquences d'arrosage et d'engrais, toxicité, notes de culture — sont fournies <strong>sans aucune vérification ni garantie d'exactitude, d'exhaustivité ou d'actualité</strong>. Elles peuvent comporter des erreurs, des approximations, ou des valeurs inadaptées à votre variété précise, à votre climat ou à vos conditions intérieures.</p><p><strong>Il vous appartient de vérifier ces informations</strong> auprès de sources fiables (pépiniériste, ouvrage spécialisé, vétérinaire pour ce qui touche à la toxicité) avant de vous y fier, et de les <strong>adapter à votre situation</strong> : l'application permet de personnaliser les fréquences d'arrosage et d'engrais plante par plante, et d'ajouter vos propres fiches au catalogue local lorsque celles fournies ne conviennent pas.</p><p>Clairevue ne saurait être tenue responsable des conséquences d'une information inexacte du catalogue.</p>"),
+ "<p>Le catalogue de plantes livré avec l'application est constitué à partir de données publiques générales, <strong>assemblées et traduites à l'aide d'une intelligence artificielle</strong>, sans relecture systématique par un spécialiste. Ces informations — noms, besoins en lumière et en humidité, fréquences d'arrosage et d'engrais, toxicité, notes de culture — sont fournies <strong>sans aucune vérification ni garantie d'exactitude, d'exhaustivité ou d'actualité</strong>. Elles peuvent comporter des erreurs, des approximations, ou des valeurs inadaptées à votre variété précise, à votre climat ou à vos conditions intérieures.</p><p><strong>Il vous appartient de vérifier ces informations</strong> auprès de sources fiables (pépiniériste, ouvrage spécialisé, vétérinaire pour ce qui touche à la toxicité) avant de vous y fier, et de les <strong>adapter à votre situation</strong> : l'application permet de personnaliser les fréquences d'arrosage et d'engrais plante par plante, et d'ajouter vos propres fiches au catalogue local lorsque celles fournies ne conviennent pas.</p><p>Clairvue ne saurait être tenue responsable des conséquences d'une information inexacte du catalogue.</p>"),
 ("Contenu ajouté par l'utilisateur",
  "<p>Vous pouvez ajouter vos propres plantes au catalogue local. Ce contenu reste strictement local à votre appareil : il n'est ni partagé, ni vérifié, ni validé par qui que ce soit. Vous êtes seul responsable de l'exactitude des informations saisies.</p>"),
 ("Absence de sauvegarde automatique",
@@ -204,7 +204,7 @@ CONDITIONS = {
 ("!Toxicity to animals",
  "Toxicity information is provided <strong>for information only</strong> and does not constitute veterinary advice. If ingestion is suspected or confirmed, contact a vet or an animal poison control centre immediately — never rely on the app alone in an emergency."),
 ("Catalog data shipped with the app",
- "<p>The plant catalog bundled with the app is built from general public data, <strong>assembled and translated with the help of artificial intelligence</strong>, without systematic review by a specialist. This information — names, light and humidity needs, watering and fertilising frequencies, toxicity, growing notes — is provided <strong>without any verification or guarantee of accuracy, completeness or currency</strong>. It may contain errors, approximations, or values unsuited to your exact variety, your climate or your indoor conditions.</p><p><strong>It is your responsibility to verify this information</strong> against reliable sources (a nursery, a specialist reference, a vet for anything touching toxicity) before relying on it, and to <strong>adapt it to your situation</strong>: the app lets you customise watering and fertilising frequencies plant by plant, and add your own entries to the local catalog when the bundled ones do not fit.</p><p>Clairevue cannot be held liable for the consequences of inaccurate catalog information.</p>"),
+ "<p>The plant catalog bundled with the app is built from general public data, <strong>assembled and translated with the help of artificial intelligence</strong>, without systematic review by a specialist. This information — names, light and humidity needs, watering and fertilising frequencies, toxicity, growing notes — is provided <strong>without any verification or guarantee of accuracy, completeness or currency</strong>. It may contain errors, approximations, or values unsuited to your exact variety, your climate or your indoor conditions.</p><p><strong>It is your responsibility to verify this information</strong> against reliable sources (a nursery, a specialist reference, a vet for anything touching toxicity) before relying on it, and to <strong>adapt it to your situation</strong>: the app lets you customise watering and fertilising frequencies plant by plant, and add your own entries to the local catalog when the bundled ones do not fit.</p><p>Clairvue cannot be held liable for the consequences of inaccurate catalog information.</p>"),
 ("User-added content",
  "<p>You may add your own plants to the local catalog. That content stays strictly local to your device: it is neither shared, nor reviewed, nor validated by anyone. You alone are responsible for the accuracy of what you enter.</p>"),
 ("No automatic backup",
@@ -230,7 +230,7 @@ CONDITIONS = {
 ("!Giftigkeit für Tiere",
  "Angaben zur Giftigkeit dienen <strong>ausschließlich der Information</strong> und stellen keine tierärztliche Beratung dar. Bei tatsächlicher oder vermuteter Aufnahme wende dich sofort an eine Tierärztin, einen Tierarzt oder eine Giftnotrufzentrale — verlasse dich im Notfall niemals allein auf die App."),
 ("Mit der App gelieferte Katalogdaten",
- "<p>Der mitgelieferte Pflanzenkatalog beruht auf allgemeinen öffentlichen Daten, die <strong>mithilfe künstlicher Intelligenz zusammengestellt und übersetzt</strong> wurden, ohne systematische Prüfung durch Fachleute. Diese Angaben — Namen, Licht- und Feuchtigkeitsbedarf, Gieß- und Düngehäufigkeiten, Giftigkeit, Kulturhinweise — werden <strong>ohne jede Prüfung und ohne Gewähr für Richtigkeit, Vollständigkeit oder Aktualität</strong> bereitgestellt. Sie können Fehler oder Näherungswerte enthalten oder für deine genaue Sorte, dein Klima oder deine Innenraumbedingungen ungeeignet sein.</p><p><strong>Es liegt in deiner Verantwortung, diese Angaben zu überprüfen</strong> — bei verlässlichen Quellen (Gärtnerei, Fachliteratur, Tierarztpraxis bei Fragen zur Giftigkeit) — bevor du dich darauf verlässt, und sie <strong>an deine Situation anzupassen</strong>: Die App erlaubt es, Gieß- und Düngehäufigkeiten pflanzenweise anzupassen und eigene Einträge im lokalen Katalog anzulegen, wenn die mitgelieferten nicht passen.</p><p>Clairevue haftet nicht für die Folgen unzutreffender Katalogangaben.</p>"),
+ "<p>Der mitgelieferte Pflanzenkatalog beruht auf allgemeinen öffentlichen Daten, die <strong>mithilfe künstlicher Intelligenz zusammengestellt und übersetzt</strong> wurden, ohne systematische Prüfung durch Fachleute. Diese Angaben — Namen, Licht- und Feuchtigkeitsbedarf, Gieß- und Düngehäufigkeiten, Giftigkeit, Kulturhinweise — werden <strong>ohne jede Prüfung und ohne Gewähr für Richtigkeit, Vollständigkeit oder Aktualität</strong> bereitgestellt. Sie können Fehler oder Näherungswerte enthalten oder für deine genaue Sorte, dein Klima oder deine Innenraumbedingungen ungeeignet sein.</p><p><strong>Es liegt in deiner Verantwortung, diese Angaben zu überprüfen</strong> — bei verlässlichen Quellen (Gärtnerei, Fachliteratur, Tierarztpraxis bei Fragen zur Giftigkeit) — bevor du dich darauf verlässt, und sie <strong>an deine Situation anzupassen</strong>: Die App erlaubt es, Gieß- und Düngehäufigkeiten pflanzenweise anzupassen und eigene Einträge im lokalen Katalog anzulegen, wenn die mitgelieferten nicht passen.</p><p>Clairvue haftet nicht für die Folgen unzutreffender Katalogangaben.</p>"),
 ("Von Nutzenden hinzugefügte Inhalte",
  "<p>Du kannst eigene Pflanzen zum lokalen Katalog hinzufügen. Diese Inhalte bleiben strikt lokal auf deinem Gerät: Sie werden weder geteilt noch geprüft noch von irgendjemandem freigegeben. Für die Richtigkeit bist allein du verantwortlich.</p>"),
 ("Keine automatische Sicherung",
@@ -256,7 +256,7 @@ CONDITIONS = {
 ("!Toxicidad para los animales",
  "La información sobre toxicidad se facilita <strong>a título meramente informativo</strong> y no constituye en ningún caso un consejo veterinario. En caso de ingestión real o sospechada, contacta inmediatamente con un veterinario o un centro toxicológico veterinario — nunca te fíes solo de la aplicación en una urgencia."),
 ("Datos del catálogo incluidos con la aplicación",
- "<p>El catálogo de plantas que acompaña a la aplicación se basa en datos públicos generales, <strong>recopilados y traducidos con ayuda de inteligencia artificial</strong>, sin revisión sistemática por parte de un especialista. Esta información — nombres, necesidades de luz y humedad, frecuencias de riego y abono, toxicidad, notas de cultivo — se facilita <strong>sin verificación alguna ni garantía de exactitud, exhaustividad o actualidad</strong>. Puede contener errores, aproximaciones o valores inadecuados para tu variedad concreta, tu clima o tus condiciones de interior.</p><p><strong>Te corresponde verificar esta información</strong> en fuentes fiables (vivero, obra especializada, veterinario en lo relativo a la toxicidad) antes de fiarte de ella, y <strong>adaptarla a tu situación</strong>: la aplicación permite personalizar las frecuencias de riego y abono planta por planta, y añadir tus propias fichas al catálogo local cuando las incluidas no se ajusten.</p><p>Clairevue no será responsable de las consecuencias de una información inexacta del catálogo.</p>"),
+ "<p>El catálogo de plantas que acompaña a la aplicación se basa en datos públicos generales, <strong>recopilados y traducidos con ayuda de inteligencia artificial</strong>, sin revisión sistemática por parte de un especialista. Esta información — nombres, necesidades de luz y humedad, frecuencias de riego y abono, toxicidad, notas de cultivo — se facilita <strong>sin verificación alguna ni garantía de exactitud, exhaustividad o actualidad</strong>. Puede contener errores, aproximaciones o valores inadecuados para tu variedad concreta, tu clima o tus condiciones de interior.</p><p><strong>Te corresponde verificar esta información</strong> en fuentes fiables (vivero, obra especializada, veterinario en lo relativo a la toxicidad) antes de fiarte de ella, y <strong>adaptarla a tu situación</strong>: la aplicación permite personalizar las frecuencias de riego y abono planta por planta, y añadir tus propias fichas al catálogo local cuando las incluidas no se ajusten.</p><p>Clairvue no será responsable de las consecuencias de una información inexacta del catálogo.</p>"),
 ("Contenido añadido por el usuario",
  "<p>Puedes añadir tus propias plantas al catálogo local. Ese contenido permanece estrictamente local en tu dispositivo: no se comparte, ni se verifica, ni lo valida nadie. Eres el único responsable de la exactitud de lo que introduces.</p>"),
 ("Ausencia de copia de seguridad automática",
@@ -282,7 +282,7 @@ CONDITIONS = {
 ("!Tossicità per gli animali",
  "Le indicazioni sulla tossicità sono fornite <strong>a puro titolo informativo</strong> e non costituiscono in alcun caso un parere veterinario. In caso di ingestione reale o sospetta, contatta immediatamente un veterinario o un centro antiveleni per animali — non affidarti mai alla sola applicazione in un'emergenza."),
 ("Dati del catalogo forniti con l'applicazione",
- "<p>Il catalogo di piante fornito con l'applicazione si basa su dati pubblici generali, <strong>raccolti e tradotti con l'ausilio dell'intelligenza artificiale</strong>, senza revisione sistematica da parte di uno specialista. Queste informazioni — nomi, fabbisogno di luce e umidità, frequenze di irrigazione e concimazione, tossicità, note di coltivazione — sono fornite <strong>senza alcuna verifica né garanzia di esattezza, completezza o attualità</strong>. Possono contenere errori, approssimazioni o valori inadatti alla tua varietà specifica, al tuo clima o alle tue condizioni interne.</p><p><strong>Spetta a te verificare queste informazioni</strong> presso fonti affidabili (vivaista, testo specializzato, veterinario per quanto riguarda la tossicità) prima di farvi affidamento, e <strong>adattarle alla tua situazione</strong>: l'applicazione consente di personalizzare le frequenze di irrigazione e concimazione pianta per pianta, e di aggiungere schede tue al catalogo locale quando quelle fornite non sono adatte.</p><p>Clairevue non potrà essere ritenuta responsabile delle conseguenze di un'informazione inesatta del catalogo.</p>"),
+ "<p>Il catalogo di piante fornito con l'applicazione si basa su dati pubblici generali, <strong>raccolti e tradotti con l'ausilio dell'intelligenza artificiale</strong>, senza revisione sistematica da parte di uno specialista. Queste informazioni — nomi, fabbisogno di luce e umidità, frequenze di irrigazione e concimazione, tossicità, note di coltivazione — sono fornite <strong>senza alcuna verifica né garanzia di esattezza, completezza o attualità</strong>. Possono contenere errori, approssimazioni o valori inadatti alla tua varietà specifica, al tuo clima o alle tue condizioni interne.</p><p><strong>Spetta a te verificare queste informazioni</strong> presso fonti affidabili (vivaista, testo specializzato, veterinario per quanto riguarda la tossicità) prima di farvi affidamento, e <strong>adattarle alla tua situazione</strong>: l'applicazione consente di personalizzare le frequenze di irrigazione e concimazione pianta per pianta, e di aggiungere schede tue al catalogo locale quando quelle fornite non sono adatte.</p><p>Clairvue non potrà essere ritenuta responsabile delle conseguenze di un'informazione inesatta del catalogo.</p>"),
 ("Contenuti aggiunti dall'utente",
  "<p>Puoi aggiungere le tue piante al catalogo locale. Questi contenuti restano strettamente locali sul tuo dispositivo: non sono condivisi, né verificati, né validati da nessuno. Sei l'unico responsabile dell'esattezza di quanto inserisci.</p>"),
 ("Assenza di backup automatico",
